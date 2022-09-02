@@ -1,7 +1,13 @@
-10:21:07 **** Incremental Build of configuration Debug for project 000TestProject ****
+11:17:33 **** Incremental Build of configuration Debug for project 000TestProject ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:12:276: warning: unknown escape sequence: '\M'
+   12 |         printf("David says , \"Programming is fun!\" \n**Conditions apply , \"Offers valid until tomorrow\" \nC:\\My computer\My folder\nD:/My documents/My file \n\ \\ \\ \\ Today is holiday \\ \\ \\ \ \nThis is a triple quoted string \"\"\" This month has 30 days \"\"\" \n");
+      |                                                                                                                                                                                                                                                                                    ^
+..\main.c:12:276: warning: unknown escape sequence: '\040'
+..\main.c:12:276: warning: unknown escape sequence: '\040'
 gcc -o 000TestProject.exe main.o 
 
-10:21:07 Build Finished. 0 errors, 0 warnings. (took 469ms)
+11:17:33 Build Finished. 0 errors, 3 warnings. (took 380ms)
 

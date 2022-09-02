@@ -20,3 +20,136 @@ gcc -o 000TestProject.exe main.o
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
 gcc -o 000TestProject.exe main.o 
+11:12:24 **** Incremental Build of configuration Debug for project 000TestProject ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:12:16: warning: missing terminating " character
+   12 |         printf("David says , \"Programming is fun!\" \n  
+      |                ^
+..\main.c:12:16: error: missing terminating " character
+   12 |         printf("David says , \"Programming is fun!\" \n  
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\main.c:13:27: error: 'Conditions' undeclared (first use in this function)
+   13 |                         **Conditions apply , \"Offers valid until tomorrow\" \n  ");
+      |                           ^~~~~~~~~~
+..\main.c:13:27: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c:13:37: error: expected ')' before 'apply'
+   13 |                         **Conditions apply , \"Offers valid until tomorrow\" \n  ");
+      |                                     ^~~~~~
+      |                                     )
+..\main.c:12:15: note: to match this '('
+   12 |         printf("David says , \"Programming is fun!\" \n  
+      |               ^
+..\main.c:13:46: error: stray '\' in program
+   13 |                         **Conditions apply , \"Offers valid until tomorrow\" \n  ");
+      |                                              ^
+11:13:26 **** Incremental Build of configuration Debug for project 000TestProject ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o 000TestProject.exe main.o 
+11:14:08 **** Incremental Build of configuration Debug for project 000TestProject ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:12:274: warning: unknown escape sequence: '\M'
+   12 |         printf("David says , \"Programming is fun!\" \n  **Conditions apply , \"Offers valid until tomorrow\" \n C:\My computer\My folder \n D:/My documents/My file \n \ \ \ \ Today is holiday \ \ \ \ \n This is a triple quoted string \"\"\" This month has 30 days \"\"\" ");
+      |                                                                                                                                                                                                                                                                                  ^
+..\main.c:12:274: warning: unknown escape sequence: '\M'
+..\main.c:12:274: warning: unknown escape sequence: '\040'
+..\main.c:12:274: warning: unknown escape sequence: '\040'
+..\main.c:12:274: warning: unknown escape sequence: '\040'
+..\main.c:12:274: warning: unknown escape sequence: '\040'
+..\main.c:12:274: warning: unknown escape sequence: '\040'
+..\main.c:12:274: warning: unknown escape sequence: '\040'
+..\main.c:12:274: warning: unknown escape sequence: '\040'
+..\main.c:12:274: warning: unknown escape sequence: '\040'
+gcc -o 000TestProject.exe main.o 
+11:14:48 **** Incremental Build of configuration Debug for project 000TestProject ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:13:243: warning: unknown escape sequence: '\M'
+   13 |                         " **Conditions apply , \"Offers valid until tomorrow\" \n C:\My computer\My folder \n D:/My documents/My file \n \ \ \ \ Today is holiday \ \ \ \ \n This is a triple quoted string \"\"\" This month has 30 days \"\"\" ");
+      |                                                                                                                                                                                                                                                   ^
+..\main.c:13:243: warning: unknown escape sequence: '\M'
+..\main.c:13:243: warning: unknown escape sequence: '\040'
+..\main.c:13:243: warning: unknown escape sequence: '\040'
+..\main.c:13:243: warning: unknown escape sequence: '\040'
+..\main.c:13:243: warning: unknown escape sequence: '\040'
+..\main.c:13:243: warning: unknown escape sequence: '\040'
+..\main.c:13:243: warning: unknown escape sequence: '\040'
+..\main.c:13:243: warning: unknown escape sequence: '\040'
+..\main.c:13:243: warning: unknown escape sequence: '\040'
+gcc -o 000TestProject.exe main.o 
+11:15:15 **** Incremental Build of configuration Debug for project 000TestProject ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:12:274: warning: unknown escape sequence: '\M'
+   12 |         printf("David says , \"Programming is fun!\" \n  **Conditions apply , \"Offers valid until tomorrow\" \n C:\My computer\My folder \n D:/My documents/My file \n \ \ \ \ Today is holiday \ \ \ \ \n This is a triple quoted string \"\"\" This month has 30 days \"\"\" ");
+      |                                                                                                                                                                                                                                                                                  ^
+..\main.c:12:274: warning: unknown escape sequence: '\M'
+..\main.c:12:274: warning: unknown escape sequence: '\040'
+..\main.c:12:274: warning: unknown escape sequence: '\040'
+..\main.c:12:274: warning: unknown escape sequence: '\040'
+..\main.c:12:274: warning: unknown escape sequence: '\040'
+..\main.c:12:274: warning: unknown escape sequence: '\040'
+..\main.c:12:274: warning: unknown escape sequence: '\040'
+..\main.c:12:274: warning: unknown escape sequence: '\040'
+..\main.c:12:274: warning: unknown escape sequence: '\040'
+gcc -o 000TestProject.exe main.o 
+11:15:40 **** Incremental Build of configuration Debug for project 000TestProject ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:12:276: warning: unknown escape sequence: '\M'
+   12 |         printf("David says , \"Programming is fun!\" \n  **Conditions apply , \"Offers valid until tomorrow\" \n C:\My computer\My folder \n D:/My documents/My file \n \ \ \ \ Today is holiday \ \ \ \ \n This is a triple quoted string \"\"\" This month has 30 days \"\"\" \n");
+      |                                                                                                                                                                                                                                                                                    ^
+..\main.c:12:276: warning: unknown escape sequence: '\M'
+..\main.c:12:276: warning: unknown escape sequence: '\040'
+..\main.c:12:276: warning: unknown escape sequence: '\040'
+..\main.c:12:276: warning: unknown escape sequence: '\040'
+..\main.c:12:276: warning: unknown escape sequence: '\040'
+..\main.c:12:276: warning: unknown escape sequence: '\040'
+..\main.c:12:276: warning: unknown escape sequence: '\040'
+..\main.c:12:276: warning: unknown escape sequence: '\040'
+..\main.c:12:276: warning: unknown escape sequence: '\040'
+gcc -o 000TestProject.exe main.o 
+11:16:09 **** Incremental Build of configuration Debug for project 000TestProject ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:12:274: warning: unknown escape sequence: '\M'
+   12 |         printf("David says , \"Programming is fun!\" \n**Conditions apply , \"Offers valid until tomorrow\" \n C:\My computer\My folder \n D:/My documents/My file \n \ \ \ \ Today is holiday \ \ \ \ \n This is a triple quoted string \"\"\" This month has 30 days \"\"\" \n");
+      |                                                                                                                                                                                                                                                                                  ^
+..\main.c:12:274: warning: unknown escape sequence: '\M'
+..\main.c:12:274: warning: unknown escape sequence: '\040'
+..\main.c:12:274: warning: unknown escape sequence: '\040'
+..\main.c:12:274: warning: unknown escape sequence: '\040'
+..\main.c:12:274: warning: unknown escape sequence: '\040'
+..\main.c:12:274: warning: unknown escape sequence: '\040'
+..\main.c:12:274: warning: unknown escape sequence: '\040'
+..\main.c:12:274: warning: unknown escape sequence: '\040'
+..\main.c:12:274: warning: unknown escape sequence: '\040'
+gcc -o 000TestProject.exe main.o 
+11:16:52 **** Incremental Build of configuration Debug for project 000TestProject ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:12:281: warning: unknown escape sequence: '\M'
+   12 |         printf("David says , \"Programming is fun!\" \n**Conditions apply , \"Offers valid until tomorrow\" \n C:\\My computer\My folder \n D:/My documents/My file \n \ \\ \\ \\ Today is holiday \\ \\ \\ \ \n This is a triple quoted string \"\"\" This month has 30 days \"\"\" \n");
+      |                                                                                                                                                                                                                                                                                         ^
+..\main.c:12:281: warning: unknown escape sequence: '\040'
+..\main.c:12:281: warning: unknown escape sequence: '\040'
+gcc -o 000TestProject.exe main.o 
+11:17:33 **** Incremental Build of configuration Debug for project 000TestProject ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:12:276: warning: unknown escape sequence: '\M'
+   12 |         printf("David says , \"Programming is fun!\" \n**Conditions apply , \"Offers valid until tomorrow\" \nC:\\My computer\My folder\nD:/My documents/My file \n\ \\ \\ \\ Today is holiday \\ \\ \\ \ \nThis is a triple quoted string \"\"\" This month has 30 days \"\"\" \n");
+      |                                                                                                                                                                                                                                                                                    ^
+..\main.c:12:276: warning: unknown escape sequence: '\040'
+..\main.c:12:276: warning: unknown escape sequence: '\040'
+gcc -o 000TestProject.exe main.o 
