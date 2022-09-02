@@ -9,7 +9,7 @@
 
 int main(void){
 
-	printf("David says,  \"Programming is fun!\" \n");
+	printf("David says:  \"Programming is fun!\" \n");
 	printf("Good day!\n");
 
 	printf("Press 'Enter' to exit this application\n");
