@@ -9,8 +9,8 @@
 
 int main(void){
 
-	printf("Hello world\n");
-	printf("Today is a great day!\n");
+	printf("David says:  \"Programming is fun!\" \n");
+	printf("Good day!\n");
 
 	printf("Press 'Enter' to exit this application\n");
 
