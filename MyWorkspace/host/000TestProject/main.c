@@ -18,7 +18,7 @@ int main(void){
 	unsigned int sB2C = 2;
 	unsigned int A2C = sA2B + sB2C;
 
-	printf("Total distance from A to C is %ikm\n", A2C);
+	printf("Total distance from A to C is %ukm\n", A2C);
 
 	printf("Press 'Enter' to exit this application\n");
 	getchar();
