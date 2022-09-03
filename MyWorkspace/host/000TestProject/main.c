@@ -19,7 +19,15 @@ int main(void){
 	unsigned int A2C = sA2B + sB2C;
 
 	printf("Total distance from A to C is %ukm\n", A2C);
-	//test
+
+	//Sizeof Operator
+	printf("Size of char data type = %dBytes\n", sizeof(char));	//datatype name or varibale as argument for sizeof
+	printf("Size of short data type = %dBytes\n", sizeof(short));
+	printf("Size of int data type = %dBytes\n", sizeof(int));
+	printf("Size of long data type = %dBytes\n", sizeof(long));
+	printf("Size of long long data type = %dBytes\n", sizeof(long long));
+
+
 	printf("Press 'Enter' to exit this application\n");
 	getchar();
 
