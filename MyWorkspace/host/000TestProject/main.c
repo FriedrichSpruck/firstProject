@@ -7,6 +7,12 @@
 
 #include<stdio.h>
 
+//Varibale Definition
+int definition;				//storage is allocated for the variable
+
+//Variable Declaration
+extern int declaration;		//no storage is allocated because of "extern" keyword, which tells the compiler that the varibale is defined extern
+
 int main(void){
 	/*
 	 * Solution for first exercise
@@ -26,6 +32,7 @@ int main(void){
 	printf("Size of int data type = %dBytes\n", sizeof(int));
 	printf("Size of long data type = %dBytes\n", sizeof(long));
 	printf("Size of long long data type = %dBytes\n", sizeof(long long));
+
 
 
 	printf("Press 'Enter' to exit this application\n");
