@@ -34,7 +34,7 @@ int main(void){
 	printf("Size of long long data type = %lldBytes\n", sizeof(long long));
 	printf("Size of pointer data type = %lldBytes\n", sizeof(&sA2B));
 
-	//Adressen
+	//Addresses
 	unsigned long long int longVar1 = (unsigned long long int) &sA2B; 	//address of a pointer is 8 bytes not 4 bytes!
 	printf("Address of variable sA2B = %p\n", &sA2B);
 	printf("Address of variable longVar1 = %llx\n", longVar1);
