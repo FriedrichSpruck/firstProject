@@ -7,17 +7,23 @@
 
 #include<stdio.h>
 
-//Varibale Definition
+//Variable Definition
 int definition;				//storage is allocated for the variable
 
 //Variable Declaration
 extern int declaration;		//no storage is allocated because of "extern" keyword, which tells the compiler that the varibale is defined extern
 
+//Prototyp
+void myFun2();
+
+//Definition
+int mainPrivateData = 0;
+
 int main(void){
 	/*
 	 * Solution for first exercise
 	 * */
-	printf("David says , \"Programming is fun!\" \n**Conditions apply , \"Offers valid until tomorrow\" \nC:\\My computer\My folder\nD:/My documents/My file \n\ \\ \\ \\ Today is holiday \\ \\ \\ \ \nThis is a triple quoted string \"\"\" This month has 30 days \"\"\" \n");
+	//printf("David says , \"Programming is fun!\" \n**Conditions apply , \"Offers valid until tomorrow\" \nC:\\My computer\My folder\nD:/My documents/My file \n\ \\ \\ \\ Today is holiday \\ \\ \\ \ \nThis is a triple quoted string \"\"\" This month has 30 days \"\"\" \n");
 
 	//Exercise datatypes
 	unsigned int sA2B = 1;
@@ -38,6 +44,10 @@ int main(void){
 	unsigned long long int longVar1 = (unsigned long long int) &sA2B; 	//address of a pointer is 8 bytes not 4 bytes!
 	printf("Address of variable sA2B = %p\n", &sA2B);
 	printf("Address of variable longVar1 = %llx\n", longVar1);
+
+	//Storage classes
+	myFun2();
+	printf("mainPrivateData value = %d\n", mainPrivateData);
 
 	printf("Press 'Enter' to exit this application\n");
 	getchar();
