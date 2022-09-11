@@ -18,6 +18,7 @@ void myFun2();
 
 //Definition
 int mainPrivateData = 0;
+char a1 = 'A';
 
 int main(void){
 	/*
@@ -49,8 +50,18 @@ int main(void){
 	myFun2();
 	printf("mainPrivateData value = %d\n", mainPrivateData);
 
+	//ASCII
+	printf("The character is: 0d%d\n", a1);
+	printf("The character is: 0c%c\n", a1);
+	printf("The character is: 0x%x\n", a1);
+
+	//End of program
 	printf("Press 'Enter' to exit this application\n");
 	getchar();
 
 	return 0;
+}
+
+static void changeSystemClock (unsigned int systemClock){
+	printf("system clock changed to %d\n", systemClock);
 }
