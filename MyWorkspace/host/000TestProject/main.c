@@ -5,8 +5,8 @@
  *      Author: TUF G
  */
 
-#include<stdio.h>
-
+#include <stdio.h>
+#include "math.h"
 //Variable Definition
 int definition;				//storage is allocated for the variable
 
@@ -54,6 +54,11 @@ int main(void){
 	printf("The character is: 0d%d\n", a1);
 	printf("The character is: 0c%c\n", a1);
 	printf("The character is: 0x%x\n", a1);
+
+	//Functions
+	printf("Math add: %I64X\n", math_add(0x0FFF1111, 0x0FFF1111));
+	printf("Math mul: %llx\n", math_mul(0x0FFF1111, 0x0FFF1111));
+	printf("Math div: %f\n", math_div(100, 8));
 
 	//End of program
 	printf("Press 'Enter' to exit this application\n");
